@@ -11,5 +11,5 @@ s.license = { :type => 'COMMERCIAL', :text => <<-LICENSE
 	LICENSE
 	}
 s.platform = :ios
-s.source_files = 'HCInfiniteScroll/HCInfiniteScroll/*.{h,m}'
+s.source_files = 'HCInfiniteScroll/HCInfiniteScroll/Classes/*.{h,m}'
 end

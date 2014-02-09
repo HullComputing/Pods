@@ -11,5 +11,5 @@ s.license = { :type => 'COMMERCIAL', :text => <<-LICENSE
         LICENSE
         }
 s.platform = :ios
-s.source_files = 'HCCarouselView/HCCarouselView/*.{h,m}'
+s.source_files = 'HCCarouselView/HCCarouselView/Classes/*.{h,m}'
 end
