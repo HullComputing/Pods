@@ -11,8 +11,10 @@ s.homepage = 'http://www.testflightapp.com'
 s.author = { 'TestFlight' => 'support@testflightapp.com' }
 s.source = { :http => 'https://d193ln56du8muy.cloudfront.net/sdk/1389942959/TestFlightSDK2.2.1.zip' }
 s.platform = :ios, '6.0'
+s.source_files = "*.h"
 s.public_header_files = "./TestFlight*.h"
 s.ios.vendored_library = 'libTestFlight.a'
+s.library = 'z'
 s.frameworks = 'UIKit'
 end
 
