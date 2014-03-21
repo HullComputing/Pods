@@ -12,4 +12,5 @@ s.license = { :type => 'COMMERCIAL', :text => <<-LICENSE
         }
 s.platform = :ios
 s.source_files = 'HCDrawerSwipeSegue/HCDrawerSwipeSegue/Classes/*.{h,m}'
+s.requires_arc = true
 end

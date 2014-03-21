@@ -16,5 +16,6 @@ s.public_header_files = "./TestFlight*.h"
 s.ios.vendored_library = 'libTestFlight.a'
 s.library = 'z'
 s.frameworks = 'UIKit'
+s.requires_arc = true
 end
 
