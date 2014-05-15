@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -78,14 +78,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :http => 'https://developers.facebook.com/resources/facebook-ios-sdk-current.pkg' }
+  s.source       = { :git => "https://github.com/HullComputing/Facebook-iOS-FrameworkSDK.git", :tag => "v3.14.1" }
 
-  s.prepare_command = <<-CMD
-	pgkutil --expand facebook-ios-sdk-current.pkg ./unpack
-	cd unpack
-	tar -xvzf Payload	
-
-	CMD
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
@@ -94,7 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.vendored_frameworks = 'unpack/Documents/Bolts.framework', 'unpack/Documents/FacebookSDK/FacebookSDH.framework'
+  s.vendored_frameworks = 'Documents/Bolts.framework', 'Documents/FacebookSDK/FacebookSDH.framework'
 
   #  s.source_files  = "unpack/Documents"
   #  s.exclude_files = "Classes/Exclude"
