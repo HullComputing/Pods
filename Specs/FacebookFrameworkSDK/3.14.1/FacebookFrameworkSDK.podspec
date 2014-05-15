@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :http => https://developers.facebook.com/resources/facebook-ios-sdk-current.pkg" }
+  s.source       = { :http => 'https://developers.facebook.com/resources/facebook-ios-sdk-current.pkg' }
 
   spec.prepare_command = <<-CMD
 	pgkutil --expand facebook-ios-sdk-current.pkg ./unpack
