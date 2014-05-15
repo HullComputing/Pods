@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => 'https://developers.facebook.com/resources/facebook-ios-sdk-current.pkg' }
 
-  spec.prepare_command = <<-CMD
+  s.prepare_command = <<-CMD
 	pgkutil --expand facebook-ios-sdk-current.pkg ./unpack
 	cd unpack
 	tar -xvzf Payload	
