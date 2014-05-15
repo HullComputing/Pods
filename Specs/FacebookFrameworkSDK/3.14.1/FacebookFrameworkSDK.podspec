@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.vendored_frameworks = 'Documents/Bolts.framework', 'Documents/FacebookSDK/FacebookSDH.framework'
+  s.vendored_frameworks = 'Documents/Bolts.framework', 'Documents/FacebookSDK/FacebookSDK.framework'
 
   #  s.source_files  = "unpack/Documents"
   #  s.exclude_files = "Classes/Exclude"
