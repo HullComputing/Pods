@@ -11,6 +11,6 @@ s.license = { :type => 'COMMERCIAL', :text => <<-LICENSE
         LICENSE
         }
 s.platform = :ios
-s.source_files = 'HCObjectiveCHelpers/Classes/*.{h,m}'
+s.source_files = 'HCObjectiveCHelpers/Classes/**/*.{h,m}'
 s.requires_arc = true
 end
