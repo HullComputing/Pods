@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name = "HCSliderView"
+s.name = "HCObjectiveCHelpers"
 s.version = "0.0.1"
 s.homepage = "https://github.com/HullComputing/"
 s.summary = "An collection of helper classes for Objective C"
